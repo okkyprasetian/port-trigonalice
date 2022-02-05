@@ -1,4 +1,12 @@
+import { useState } from 'react'
+import Download from './components/Download'
+import Card from './components/Card'
+
 function App() {
+
+  // State
+  const [cards] = useState([1, 2, 3])
+
   return (
     <div className="App">
 
@@ -11,6 +19,7 @@ function App() {
           <p className="home-p">
             Trigonalice will help you manage your finance
           </p>
+          <Download />
         </div>
         <div className="home-illust">
           Image
@@ -22,7 +31,9 @@ function App() {
         <p className="feature-p">
           We have three main feature in trigonalice. The most functionality you need for controlling your finance
         </p>
-        <div className="cards"></div>
+        <div className="cards">
+          {cards.map(() => <Card />)}
+        </div>
       </div>
 
       <div className="beta">
@@ -39,6 +50,7 @@ function App() {
         <p className="beta-download-p">
           click button and install!
         </p>
+        <Download />
 
         <div className="footer">
           C2022. Trigonalice. All right reserved.
