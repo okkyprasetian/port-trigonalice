@@ -41,22 +41,28 @@ function App() {
 
       <div className="beta">
 
-        <h1 className="beta-h1">We Make Our Beta App Avaible for Everyone</h1>
-        <p className="beta-p">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium deserunt illo assumenda similique, exercitationem harum aspernatur commodi voluptatem et inventore ullam. Odio in accusamus fugiat reiciendis aliquid, itaque sed hic exercitationem placeat nihil laborum ut, quas beatae animi voluptatibus? Accusantium doloremque, nihil laboriosam sint odio deleniti quos doloribus iste facere.
-        </p>
-        <div className="beta-illust">
-          Image
+        <div className="beta-1">
+          <h1 className="beta-h1">We Make Our Beta App Avaible for Everyone</h1>
+          <p className="beta-p">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium deserunt illo assumenda similique, exercitationem harum aspernatur commodi voluptatem et inventore ullam. Odio in accusamus fugiat reiciendis aliquid, itaque sed hic exercitationem placeat nihil laborum ut, quas beatae animi voluptatibus? Accusantium doloremque, nihil laboriosam sint odio deleniti quos doloribus iste facere.
+          </p>
+          <div className="beta-illust">
+            Image
+          </div>
         </div>
 
-        <h2 className="beta-h2">Download Trigonalice Beta Version to Experience New Features</h2>
-        <p className="beta-download-p">
-          click button and install!
-        </p>
-        <Download name="beta app" />
+        <div className="beta-2">
+          <div className="beta-2-1">
+            <h2 className="beta-h2">Download Trigonalice Beta Version to Experience New Features</h2>
+            <p className="beta-download-p">
+              click button and install!
+            </p>
+            <Download name="beta app" />
+          </div>
 
-        <div className="footer">
-          C2022. Trigonalice. All right reserved.
+          <div className="footer">
+            C2022. Trigonalice. All right reserved.
+          </div>
         </div>
 
       </div>

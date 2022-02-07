@@ -12,6 +12,10 @@ body {
   font-family: 'Fira Sans';
 }
 
+.download {
+  width: 250px;
+  height: 30px;
+}
 
 /* Local */
 
@@ -24,11 +28,14 @@ body {
 
 .home-content {
   height: 100%;
-  width: 55%;
+  width: 60%;
 }
 
 .brand {
-  height: 20%;
+  display: flex;
+  align-items: center;
+  height: 10%;
+  padding-left: 10%;
 }
 
 .home-main {
@@ -36,10 +43,14 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 60%;
+  padding-left: 10%;
 }
 
 /* Feature */
 .feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 100vh;
 }
 
@@ -70,4 +81,36 @@ body {
 
 .card-text {
   text-align: center;
+}
+
+/* beta */
+.beta-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 100vh;
+}
+
+.beta-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.beta-2-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95%;
+  border: solid 1px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5%;
 }
