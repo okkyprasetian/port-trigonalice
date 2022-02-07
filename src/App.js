@@ -30,7 +30,7 @@ function App() {
       </div>
 
       <div className="feature">
-        <h1 className="feature-h1"> App Feature </h1>
+        <h1 className="feature-h1"> App Features </h1>
         <p className="feature-p">
           We have three main feature in trigonalice. The most functionality you need for controlling your finance
         </p>
@@ -44,7 +44,7 @@ function App() {
         <div className="beta-1">
           <h1 className="beta-h1">We Make Our Beta App Avaible for Everyone</h1>
           <p className="beta-p">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium deserunt illo assumenda similique, exercitationem harum aspernatur commodi voluptatem et inventore ullam. Odio in accusamus fugiat reiciendis aliquid, itaque sed hic exercitationem placeat nihil laborum ut, quas beatae animi voluptatibus? Accusantium doloremque, nihil laboriosam sint odio deleniti quos doloribus iste facere.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium deserunt illo assumenda similique, exercitationem harum aspernatur commodi voluptatem et inventore ullam. Odio in accusamus fugiat reiciendis aliquid, itaque sed hic exercitationem placeat nihil laborum ut, quas beatae animi voluptatibus? Accusantium doloremque, nihil laboriosam sint odio deleniti quos.
           </p>
           <div className="beta-illust">
             Image
