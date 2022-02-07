@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import Download from './components/Download'
 import Card from './components/Card'
+import data from './features'
 
 function App() {
 
   // State
-  const [cards] = useState([1, 2, 3])
+  const [features] = useState(data)
 
   return (
     <div className="App">
@@ -15,11 +16,13 @@ function App() {
           <div className="brand">
             Trigonalice
           </div>
-          <h1 className="home-h1"> Money Management at Your Fingertips </h1>
-          <p className="home-p">
-            Trigonalice will help you manage your finance
-          </p>
-          <Download />
+          <div className="home-main">
+            <h1 className="home-h1"> Money Management at Your Fingertips </h1>
+            <p className="home-p">
+              Trigonalice will help you manage your finance
+            </p>
+            <Download name="app" />
+          </div>
         </div>
         <div className="home-illust">
           Image
@@ -32,7 +35,7 @@ function App() {
           We have three main feature in trigonalice. The most functionality you need for controlling your finance
         </p>
         <div className="cards">
-          {cards.map(() => <Card />)}
+          {features.map((feature, index) => <Card feature={feature} key={index} />)}
         </div>
       </div>
 
@@ -50,7 +53,7 @@ function App() {
         <p className="beta-download-p">
           click button and install!
         </p>
-        <Download />
+        <Download name="beta app" />
 
         <div className="footer">
           C2022. Trigonalice. All right reserved.

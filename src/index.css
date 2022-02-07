@@ -1,13 +1,73 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500&family=Quicksand&display=swap');
+
+
+/* Global */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Fira Sans';
+}
+
+
+/* Local */
+
+/* Home */
+.home {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.home-content {
+  height: 100%;
+  width: 55%;
+}
+
+.brand {
+  height: 20%;
+}
+
+.home-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60%;
+}
+
+/* Feature */
+.feature {
+  height: 100vh;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  height: 40%;
+}
+
+.card {
+  height: 100%;
+  width: 20%;
+  margin: 0 5%;
+  padding: 15px;
+  border: solid 1px;
+}
+
+.card-img {
+  display: block;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
 }
