@@ -63,6 +63,14 @@ body {
   margin-bottom: 2rem;
 }
 
+.home-illust {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 40%;
+}
+
 /* Feature */
 .feature {
   display: flex;
@@ -135,6 +143,7 @@ body {
 
 .beta-p {
   width: 90%;
+  margin-bottom: 5rem;
   text-align: center;
   font-size: 1.1rem;
 }
@@ -171,4 +180,5 @@ body {
   justify-content: center;
   align-items: center;
   height: 5%;
+  font-family: 'Courier New', Courier, monospace;
 }

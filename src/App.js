@@ -25,7 +25,7 @@ function App() {
           </div>
         </div>
         <div className="home-illust">
-          Image
+          <p>image</p>
         </div>
       </div>
 
@@ -61,7 +61,7 @@ function App() {
           </div>
 
           <div className="footer">
-            C2022. Trigonalice. All right reserved.
+            <span className="c">&copy; </span> 2022. Trigonalice. All right reserved.
           </div>
         </div>
 
