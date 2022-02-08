@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Download from './components/Download'
 import Card from './components/Card'
 import data from './features'
+import { FiTriangle } from 'react-icons/fi'
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
       <div className="home">
         <div className="home-content">
           <div className="brand">
-            Trigonalice
+            <FiTriangle className='brand-logo' /> Trigonalice
           </div>
           <div className="home-main">
             <h1 className="home-h1"> Money Management at Your Fingertips </h1>

@@ -1,3 +1,5 @@
+import { GoCloudDownload } from 'react-icons/go'
+
 function Download({ name }) {
 
     // Function
@@ -7,7 +9,7 @@ function Download({ name }) {
 
     return (
         <button className="download" onClick={() => alert(name)}>
-            Download
+            <GoCloudDownload /> <span className='download-p'>Download</span>
         </button>
     );
 }
